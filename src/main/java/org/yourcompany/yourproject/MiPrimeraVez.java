@@ -4,6 +4,8 @@
 
 package org.yourcompany.yourproject;
 
+import java.sql.SQLOutput;
+
 /**
  *
  * @author casantanal
@@ -11,6 +13,7 @@ package org.yourcompany.yourproject;
 public class MiPrimeraVez {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Bibliotecario bibliotecario = new Bibliotecario("1", "pepe", "pepe", "Mañana");
+        System.out.println(bibliotecario.getEmail());
     }
 }
