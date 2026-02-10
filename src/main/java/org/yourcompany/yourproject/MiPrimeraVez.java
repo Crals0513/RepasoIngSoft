@@ -15,5 +15,8 @@ public class MiPrimeraVez {
     public static void main(String[] args) {
         Bibliotecario bibliotecario = new Bibliotecario("1", "pepe", "pepe", "Mañana");
         System.out.println(bibliotecario.getEmail());
+
+        Socio socio = new Socio("1", "Juan", "Juan", 5);
+        socio.registrarPrestamo(2);
     }
 }
